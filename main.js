@@ -1,0 +1,10 @@
+let firstNumber = prompt("enter the first number");
+let secondNumber = prompt("enter the second number");
+let add = Number(firstNumber)+Number(secondNumber);
+let sub = Number(firstNumber)-Number(secondNumber);
+let mult = Number(firstNumber)*Number(secondNumber);
+let div = Number(firstNumber)/Number(secondNumber);
+alert(`${firstNumber} + ${secondNumber} = ${add}
+${firstNumber} - ${secondNumber} = ${sub}
+${firstNumber} * ${secondNumber} = ${mult}
+${firstNumber} / ${secondNumber} = ${div}`);
